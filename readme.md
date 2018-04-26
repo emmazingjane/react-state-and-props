@@ -19,37 +19,13 @@ First, let's revisit the fundamental unit of any React app: **components**.
 
 ## Components
 
-### [F.I.R.S.T. Components](https://addyosmani.com/first/)
+The F.I.R.S.T. principles of components. Components are:
 
-A React component is built to expect an input and render a UI with it. More importantly, a well-structured component only receives data specific to its purpose.
-
-This is because React follows a more **functional** approach to programming. For React components under this approach, **the same input will always produce the same output**.
-
-Best practice is that React components follow the **F.I.R.S.T.** guidelines
-
-#### Focused
-
-Components should do one thing and do it well.
-
-#### Independent
-
-Components should increase cohesion and reduce coupling. Behavior in one component should not impact the behavior of another. In other words, components should not rely on one another.
-
-> But they should compliment one another.
-
-#### Reusable
-
-Components should be written in a way that reduces the duplication of code.
-
-#### Small
-
-Ideally, components should be short and condensed.
-
-#### Testable
-
-Because the same input will always produce the same output, components are easily unit testable.
-
-> If you're interested, [Jest](https://facebook.github.io/jest/docs/tutorial-react.html) is a popular testing library for React.
+* **focused**,
+* **independent**,
+* **reusable**,
+* **small**, and
+* **testable**.
 
 We design components to do as little as possible (*small*, *focused*) with a minimal amount of dependence on other components (*independence*, *reusable*).
 
