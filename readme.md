@@ -122,10 +122,10 @@ We've done a fair amount of framing so far, so let's dive in to building our app
 
 For this exercise, we are going to build a React app from scratch that will serve as an [Abacus](https://en.wikipedia.org/wiki/Abacus) of sorts.
 
-Go ahead and clone [React Counters](https://git.generalassemb.ly/ga-wdi-exercises/react-counters) now. This will be the code we start with.
+Go ahead and clone [React Counters](https://github.com/sf-wdi-44/react-counters) now. This will be the code we start with.
 
 ```bash
-$ git clone git@git.generalassemb.ly:ga-wdi-exercises/react-counters.git
+$ git clone https://github.com/sf-wdi-44/react-counters.git
 $ cd react-counters
 $ npm install
 $ npm run start
