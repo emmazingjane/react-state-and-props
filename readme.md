@@ -263,7 +263,7 @@ class List extends Component {
 import React, { Component } from "react";
 import Counter from "./Counter";
 
-class ContainerList extends Component {
+class CounterList extends Component {
   render() {
     let counters = [];
     for (let index = 0; index < this.props.counter; index++) {
@@ -273,7 +273,7 @@ class ContainerList extends Component {
   }
 }
 
-export default ContainerList;
+export default CounterList;
 ```
 
 `Counter.js`:
